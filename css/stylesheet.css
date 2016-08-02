@@ -12,6 +12,8 @@ div {
 	background-color: rgb(189,122,50);
 	border-radius: 20px;
 	padding-bottom: 10px;
+	font-family: 'Ebrima';
+	font-weight: bold;
 }
 
 div .b {
