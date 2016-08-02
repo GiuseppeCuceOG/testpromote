@@ -17,7 +17,7 @@
 		<div class="a" ng-repeat="resu in tentativo1.data.results">
 			<p>{{ resu.description }}</p>
 			<p>{{ resu.name}}</p>
-			<img ng-src="resu.thumbnail.path + resu.thumbnail.extension"/>
+			<img ng-src="{{resu.thumbnail.path + '.' + resu.thumbnail.extension}}"/>
 			<p></p>
 		</div>	
 	</div>
