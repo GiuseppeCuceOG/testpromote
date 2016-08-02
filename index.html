@@ -11,12 +11,13 @@
 <body ng-app="TestPromote">
 	<div ng-controller="maincontroller">
 		<div class="b">
-			{{ total }}
+			{{ data.total }}
 		</div>
 		<h1> {{ attributionText }} </h1>
-		<div class="a" ng-repeat="resu in tentativo1.results">
+		<div class="a" ng-repeat="resu in tentativo1.data.results">
 			<p>{{ resu.description }}</p>
 			<p>{{ resu.name}}</p>
+			<img ng-src="{{ resu.thumbnail.path + " " + ".jpg" }}"/>
 			<p></p>
 		</div>	
 	</div>
