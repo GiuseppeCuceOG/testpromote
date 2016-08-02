@@ -29,3 +29,9 @@ div .a {
 	margin-top: 50px;
 	padding: 10px 10px 10px 10px;
 }
+
+img {
+	width: 280px;
+	margin: auto;
+	border-radius: 15px;
+}
