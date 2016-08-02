@@ -16,6 +16,11 @@ div {
 	font-weight: bold;
 }
 
+@font-face {
+    font-family: 'Ebrima';
+    src: url(ebrima.tff);
+}
+
 div .b {
 	background-color: rgb(233,179,16);
 	border-radius: 15px;
